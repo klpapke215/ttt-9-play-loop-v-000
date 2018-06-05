@@ -43,4 +43,4 @@ def play(board)
     until turn_number == 9
     turn_number += 1
   end
-  
+end
