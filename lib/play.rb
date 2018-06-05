@@ -36,12 +36,12 @@ def turn(board)
 end
 
 # Define your play method below
-counter = 0
+turn(board) = 0
 def play(board)
   loop do
     turn(board)
-    until counter == 9
-    counter += 1
+    until turn(board) == 9
+    turn(board) += 1
   end
 end
 end
